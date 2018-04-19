@@ -4,7 +4,7 @@ if(isset($_POST['submit']))
 {
   $msg = 'Name: ' . $_POST['name'] . "\n"
       . 'Email: ' . $_POST['email'] . "\n"
-      . 'Message: ' .$_POST['comment'];
+      . 'Message: ' .$_POST['message'];
 
   $to = "matt.anderson11@gmail.com";
   //mail('matt.anderson11@gmail.com', 'Sample Email Subject', $msg);
